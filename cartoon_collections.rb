@@ -2,9 +2,8 @@ def greet_characters(array)
   # Use `each` to enumerate over the provided array
   #
   # Print a custom greeting for each element
-  array = ["Dopey", "Grumpy", "Bashful"]
-  array.each do |array|
-    puts "Hello #{array.capitalize}!"
+  dwarves.each do |dwarves|
+    puts "Hello #{dwarves.capitalize}!"
   end
 end
 
